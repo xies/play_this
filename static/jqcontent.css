@@ -1,0 +1,18 @@
+#jqc_menu {padding: 0px 0px 0px 0px; margin: 0px auto; color:#000; width: 500px;}
+#jqc_menu ul {padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;  }
+#jqc_menu li {padding: 10px 10px 10px 10px;	margin: 0px 0px 0px 0px; list-style-type: none;	border: #6bbce9 dashed 1px; float:left;}
+#jqc_menu li:hover{	color: #000; cursor: pointer; background:#6bbce9; font-weight: normal; text-decoration: none;}
+
+#jqc_menu_link {padding: 0px 0px 0px 0px; margin: 0px auto; color:#6bbce9;}
+
+#jqc_loading{	text-align: center;	visibility: hidden; }
+#jqc_content { position: relative; top: -30px;}
+#jqc_content .info {
+	margin: 0px auto;
+	padding: 0px 0px 0px 10px;
+	font-family: Helvetica, Verdana, Sans-Serif;
+	font-size: 14px;
+
+	color: #000;
+	text-transform: uppercase;
+}

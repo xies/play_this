@@ -1,0 +1,150 @@
+<!doctype html>
+<head>
+
+	<link rel="stylesheet" href="static/master.css" type="text/css" media="screen">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="static/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="static/jquery.tablednd.js"></script>
+	<script type="text/javascript" src="static/jqcontent.js"></script>
+    <script type="text/javascript">
+		function playNext() {
+			$("audio").each( function(index) {
+				if (index < $("audio").length - 1) {
+					$(this).data("index",index);
+					this.addEventListener( "ended",
+						function() {
+							$("audio") [$(this).data("index") + 1].play();
+						},
+					false);
+				}
+			});
+		}
+
+		$(document).ready(function() {
+			playNext();
+			// drag & drop
+		    $("#tracklist").tableDnD({
+				dragHandle: ".dragHandle",
+				onDragClass: "myDragClass",
+				onDrop: function(table,row) {
+					playNext();
+				}
+			});
+			// call the tablesorter plugin
+			$("table").tablesorter({
+				// sort on the first column
+				sortList: [[1,0]],
+				// disable column sorting on 0,6-10
+				headers: {
+					0: {sorter:false},
+					6: {sorter:false},
+					7: {sorter:false},
+					8: {sorter:false},
+					9: {sorter:false},
+					10: {sorter:false}
+					}
+			});
+			$("table").bind("sortEnd",function() {
+				playNext();
+			});
+		});
+
+	</script>
+	<!-- No script error -->
+	<noscript>
+		<style type="text/css">
+			.pagecontainer {display:none;}
+		</style>
+		<div class="noscriptmsg">
+			hey no-scripter, i need javascript to work.
+		</div>
+	</noscript>
+</head>
+
+<title>PLAYLIST: {{ playlist.title }}</title>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="">.mp3</a></li>
+            <li><a href="">.ogg</a></li>
+        </ul>
+    </nav>
+
+	<header id="header">
+		<h1> {{ playlist.title }} by {{ playlist.creator }} </h1>
+	</header>
+    <section id="intro">
+        <header>
+			<h2><em>{{ playlist.info }}</em></h2>
+        </header>
+    </section>
+
+	<section>
+	<div id="content">
+	<div id="playlist">
+	<!-- Markup for playlist: includes tablesorter and tableDnD -->
+		<table align="center" id="tracklist" class="tablesorter">
+			<thead>
+				<tr class="nodrop nodrag track_heading">
+					<th></th>
+					{% for key in dispKeys %}
+						{% if key == 'Art' %}
+							<th></th>
+						{% else %}
+							<th><strong>{{ key }}</strong></th>
+						{% endif %}
+					{% endfor %}
+					<th class="audiotd">  </th>
+					<th class="tracknotes">
+						<div id="jqc_menu_link">
+							[<a href="/track_NAN/" id="/track_NAN/">clear</a>]
+						</div>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+			{% for track in playlist.track %}
+			<tr id="{{ track.get('Track') }}">
+				<!-- Make only this column draggable -->
+				<td class="dragHandle"></td>
+				<!-- Print track information -->
+				{% for key in dispKeys %}
+					<td> {{ track.get(key) }} </td>
+				{% endfor %}
+				<td id="audiotd">
+					<audio controls preload="metadata">
+						Your browser does not support this audio element.
+						<source src="{{track.get('location')}}.mp3" type="audio/mpeg" />
+						<source src="{{track.get('location')}}.ogg" type="audio/ogg"/>
+					</audio>
+				</td>
+				<td>
+					<div id="jqc_menu_link">
+						[<a href="/track_{{ track.get('Track') }}" id="track_{{ track.get('Track') }}">more</a>]
+					</div>
+				</td>
+			</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	    <aside>
+	        <div id="jqc_content">
+	        </div>
+	        <div id="jqc_loading">
+	       </div>
+	    </aside>
+	</div>
+	</section>
+
+	<footer>
+	    <section id="footer">
+	    	<p>Engine: <a href="http://flask.pocoo.org/">Flask</a>. Scripts: <a href="http://tablesorter.com">tablesorter</a> | <a href="https://github.com/isocra/TableDnD">tableDnD</a>. Hosting: <a href="http://www.pythonanywhere.com">python anywhere</a>.
+    	</section>
+	</footer>
+
+</body>
+

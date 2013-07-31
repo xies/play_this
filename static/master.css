@@ -1,0 +1,147 @@
+/*Master CSS3 stylesheet for xies@mit.edu*/
+
+html {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin-top: 50px;
+	margin-left: 50px;
+    width: 850px;
+    font: 14px/22px Helvetica, Arial, sans-serif;
+    background: #f0f0f0;
+    -moz-border-radius: 4em;
+    -webkit-border-radius: 4em;
+    border-radius: 4em;
+}
+
+h1 {
+    font-family: Georgia,Garamond,serif;
+    font-size: 46px;
+	line-height: 48px;
+	padding-left: 22px;
+	padding-top: 10%;
+	font-weight: bold;
+}
+
+h2 {
+    font: 16px Myriad Pro,Helvetica,sans-serif black;
+	line-height:20px;
+}
+
+nav {
+    float:right;
+}
+    nav ul{
+        text-align:right;
+        margin-bottom: 0;
+        padding: 10px;
+        list-style-type:none;
+    }
+    nav ul li{
+        background-color: #F9F9F9;
+        display:inline;
+        font-size: 11px;
+        font-family: Helvetica, sans-serif;
+        color: #BCCCCC;
+        padding:12px;
+        -moz-border-radius: 1em 4em 1em 4em;
+        border-radius: 1em 4em 1em 4em;
+    }
+    nav ul li a {
+        font-size: 12px;
+        font-family: Georgia, Garamond, sans-serif;
+        color: #BCCCCC;
+    }
+
+#intro {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px 25px 10px 25px;
+	background-color: #E9F3F5;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    }
+
+#playlist { display: table;}
+	#playlist tr td {vertical-align:top;}
+
+.track_heading th {
+    border-bottom: white solid 5px;
+}
+
+aside {
+	top: 25%;
+	position: absolute;
+	left: 950px;
+	background: white;
+	width:230px;
+}
+	aside h1{
+		font: 24px Helvetica, sans-serif black;
+        font-weight: bold;
+        line-height: 25px;
+		text-align:left;
+		padding: 0 0 0 0;
+	}
+    aside h2{
+    	font: 16px Helvetica, sans-serif black;
+		text-align:left;
+		padding: 0 0 0 0;
+	}
+	aside p {
+		font: normal 12pt Myriad Pro,Helvetica, Arial, sans-serif black;
+		text-align: left;
+	}
+
+#footer {
+    background-color:white;
+	border-top: 10px #E9F3F5 solid;
+	border-bottom: 10px #E9F3F5 solid;
+	text-align:right;
+}
+	#footer p { font-size: 10px; }
+	#footer a { font-size: 10px; }
+
+/* script classes */
+
+table.tablesorter thead tr .header { cursor: pointer; }
+
+tr.myDragClass td {
+	background-color: white;
+}
+
+td.dragHandle {
+	background-image: url(img/updown.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 20px;
+	cursor:move;
+}
+
+div #jqc_menu_link a {
+    color:#30D7E3;
+}
+
+div.noscriptmsg {
+	position: fixed;
+	top: 0;
+	width: 680px;
+	height: 100%;
+	padding: 50px;
+	background-color: black;
+	font: 52px Georgia,Garmond,serif;
+	color: white;
+	text-align: center;
+	line-height: 200px;
+}

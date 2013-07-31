@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1">
+	<title>Moodgadget</title>
+	<creator>xies</creator>
+	<info>a gentle, "conceptually chronological" introduction to electronica. begins with a few early innovators and some major musical movements. ends with personal favorites. the emphasis is a few experimental artists who really set the tone and techniques used by later comers.</info>
+    <trackList>
+		<track>
+			<title>Europe Endless</title> 
+			<creator>Kraftwerk</creator>
+			<album>Trans-Europe Express</album>
+			<location>static/audio/1</location>
+			<identifier>01</identifier>
+			<image>static/img/01.png</image>
+			<mood>August</mood>
+			<date>1977</date>
+			<label>Kling Klang Records</label>
+			<annotation>Trans-Europe Express is Kraftwerk's magnum opus, and "Europe Endless" its jewel. In 1977 punk was in full-swing in London and New York, but in Berlin Kraftwerk was working into a new direction. Whereas punk is musically simplistic and even backwards, Trans-Europe Express is a formal and aesthetic study into modernity, not as Gropius imagined it in the early 20s but as it transpired. Sonically it also proved a treasure trove for later electro and techno. Watch for its shadow.</annotation>
+		</track>
+
+		<track>
+			<title>The Big Ship</title>
+			<creator>Brian Eno</creator>
+			<album>Another Green World</album>
+			<location>static/audio/2</location>
+			<image>static/img/02.png</image>
+			<mood>Calm</mood>
+			<date>1975</date>
+			<label>Island Records</label>
+			<identifier>02</identifier>
+			<annotation>Brian Eno was (briefly and maybe unhappily) part of the early glam outfit Roxy Music, and then forged his sound borrowing from avant-garde minimalism, popularizing "ambient" music (cf. Music for Airports). But that's not all-- his hand is also in Bowie's "Berlin trilogy", Devo, later Talking Heads, and the New York No-Wave scene and bands like Sonic Youth. Really, indie rock owes him a lot. In the development of electronica, Brian Eno also holds an important space. His and David Byrne's album My Life in a Bush of Ghosts was one of the first to use samples almost exclusively to build a larger piece of music. His idea of "ambient music" heavily influenced the aural aesthetics of an entire arm of electronica to-date. P.S. Eno is also a popular source for This American Life background music, as are BoC.</annotation>
+		</track>
+
+		<track>
+			<title>The Bells</title>
+			<creator>Jeff Mills</creator>
+			<album>Kat Moda</album>
+			<location>static/audio/4</location>
+			<identifier>04</identifier>
+			<image>static/img/04.png</image>
+			<date>1997</date>
+			<mood>Manic</mood>
+			<label>Purpose Maker</label>
+			<annotation>The Bells is Jeff Mills' most recognizable work, as well as a Detroit techno classic. It's based on a few stompy, rather magical loops. It's heavy, tinny, and charged like a mother fucker. NB: Arguably the "Detroit techno" here refers to its so-called "second wave". By most reckoning the first wave was in the mid- to late-80s, heralded by Derrick May and Juan Atkins (Cybotron), around whom the word "techno" was coined. Both strands contained more strident and industrial sounds than Chicago house, perhaps due to the rapid urban depopulation in Detroit or the increasing robotization the auto industry was experiencing. It is also interesting to note how influential black musicians are in the seminal years of electronica.</annotation>
+		</track>
+
+        <track>
+            <title>Can You Feel It?</title>
+            <creator>Larry Heard (Mr. Fingers)</creator>
+            <album>Washing Machine</album>
+            <location>static/audio/3</location>
+            <image>static/img/03.png</image>
+            <identifier>03</identifier>
+            <mood>Soulful</mood>
+            <label>Trax Records</label>
+            <date>1986</date>
+			<annotation>A meaty, assured track that gave rise to the "deep house", infusing jazz and house for a more soulful sound. Much of early house music came out of the disco/motown tradition in Chicago. Trax Records was its hotbed. A more menacing brand of Chicago house is called "acid house", which relied on a much more wobbly, squelchy sound produced by the Roland TB-303 synthesizer. A seminal acid house track is appropriately called "Acid Tracks", by Phuture, also released on Trax Records.</annotation>
+		</track>
+
+		<track>
+			<title>Crystel</title>
+			<creator>Autechre</creator>
+			<album>Artificial Intelligence</album>
+			<location>static/audio/7</location>
+			<identifier>07</identifier>
+			<image>static/img/07.png</image>
+			<mood>Euphoric</mood>
+			<label>Warp Records</label>
+			<date>1992</date>
+			<annotation>What an incredible bassline! This track foreshadows the sonic mastery Autechre will develop later into their career. "Crystel" was released on a Warp Records anthology, Intelligent Design, the cover of which featured an armchair and empty record sleeves strewn before it. It signals the intended mode of listening for the genre of so-called "intelligent dance music" (IDM), which tends to be cerebral and barely danceable. "Crystel" in particular, however, probably does not reflect the oeuvre of Autechre in general, being much warmer and emotive than their usual trenchant and mechanical sound.</annotation>
+		</track>
+
+		<track>
+			<title>Octagon</title>
+			<creator>Basic Channel</creator>
+			<album>Octagon</album>
+			<location>static/audio/5</location>
+			<image>static/img/05.png</image>
+			<identifier>05</identifier>
+			<mood>Skeletal</mood>
+			<label>BC-06</label>
+			<date>1994</date>
+			<annotation>Techno is a dialogue of two cities: Detroit and Berlin. Certainly they share some strange parallels: cultural dominion, collapse, division, and decay. Yet both became wellsprings of art that shone light into the post-industrial mind, an aesthetic no longer alienated by technology but assimilating it. Their aesthetic is rightfully reflected in Basic Channel, a Berlin duo, and their sparse, minimal rhythms.</annotation>
+		</track>
+		
+		<track>
+			<title>Roygbiv</title>
+			<creator>Boards of Canada</creator>
+			<album>Music has the Rights to Children</album> 
+			<location>static/audio/10</location>
+			<image></image>
+			<identifier>10</identifier>
+            <mood>Dappled</mood>
+			<label>Warp Records</label>
+			<date>1998</date>
+			<annotation>Boards of Canada is the name of two brothers who make these intricately layered, sun-dappled arrangements out of any sounds they could get their hands on. They would be sinister here and vulnerable there, or sincere and sardonic at the same time. They have the kind of sweetness that a Camusian hero might have, if he had been more rural and more Anglic. They remind me of Tarkovsky's "Solaris", and a planet that reflects and materializes human memories and desires. BoC's work is a collage of natural sounds, human sounds, and synthesized sounds, produced on a variety of new and vintage analog recording and mixing equipments. Keep in mind that during the 90s-2000s transition, digital production was becoming more and more common, with the rise of Ableton and other computer sequencers in the early 00s.</annotation>
+		</track>
+		
+		<track>
+			<title>Xtal</title>
+			<creator>Aphex Twin</creator>
+			<album>Selected Ambient Works 85-92</album>
+			<location>static/audio/6</location>
+			<image>static/img/06.png</image>
+			<identifier>06</identifier>
+			<mood>Crepuscular</mood>
+			<label>Apollo Records</label>
+			<date>1992</date>
+			<annotation>Aphex Twin, like the Velvet Underground, came out of nowhere. And he, like Mozart, is precocious to the point of prescience. Alien and haunting, there was nothing quite like this before Selected Ambient Works. It casts a long shadow over contemporary music, recognizably in Radiohead's Kid A.</annotation>
+		</track>
+		<track>
+			<creator>The Chemical Brothers</creator>
+			<title></title>
+			<album></album>
+			<location></location>
+			<image></image>
+			<identifier>09</identifier>
+			<mood></mood>
+			<date></date>
+			<annotation>Electronic music that was fomenting in the late 80s in Chicago (house) and Detroit (techno) did not make a dent in contemporary American mainstream, but found resonance in Europe -- particularly the UK. This coincided with the establishment of the Manchester DJ (a la Factory Records) scene and some post-punk strands of proto-electronica (e.g. New Order). This also coincided with the rise of MDMA. This, coupled to the final death of punk, resulted in groups like Primal Scream and later The Chemical Brothers and The Prodigy propelling electronica into mainstream undisguised for maybe the first time. Daft Punk was contemporary to these guys, but perhaps with more of a fond look back towards disco. (In this list I'm skipping the rave/hardcore that people made in the early 90s, which are a bit too nasty for my taste.) I'm not a huge fan of these guys, maybe because they were not brothers as advertised.</annotation>
+		</track>
+		<track>
+
+			<title>Dog Days</title>
+			<creator>Matthew Dear</creator>
+			<album>Dog Days</album>
+			<location>static/audio/13</location>
+			<image>static/img/13.png</image>
+			<label>Spectral Sound</label>
+			<identifier>13</identifier>
+			<mood>Bouncy</mood>
+			<date>2003</date>
+			<annotation>Ann Arbor's Ghostly International (the big sister of Spectral) is part record label part artist collective, headed by its co-founder Matthew Dear. Ghostly calls itself "forward-thinking music" and is home to an ecclectic collection of sounds. And oh man, "Dog Days" is a resilient little track, skiddy and glitchy and deceptively simple. I think people call it "microhouse".</annotation>
+		</track>
+
+		<track>
+			<title>Halcyon + On + On</title>
+            <creator>Orbital</creator>
+            <album>Orbital 2</album>
+			<location>static/audio/8</location>
+            <image>static/img/08.png</image>
+            <identifier>08</identifier>
+            <mood>Soaring</mood>
+            <label>FFRR</label>
+            <date>1993</date>
+			<annotation>Orbital (two brothers again) remixed their 1992 single into a more upbeat, ambient track. Halcyon is dedicated to their mother, who was addicted to Halcion, a tranquilizer, proving that all beautiful songs are probably about drugs.</annotation>
+		</track>
+		
+		<track>
+			<title>1685/Bach</title>
+			<creator>Nosaj Thing</creator>
+			<album>Drift</album>
+			<location>static/audio/15</location>
+			<image>static/img/15.png</image>
+			<identifier>15</identifier>
+			<mood>Nocturnal</mood>
+			<label>Alpha Pup</label>
+			<date>2009</date>
+			<annotation>Drift is like driving wanderingly in L.A. the timeless midnight hours.</annotation>
+		</track>
+
+		<track>
+			<title>Do the Astral Plane</title>
+			<creator>Flying Lotus</creator>
+			<album>Cosmogramma</album>
+			<location>static/audio/16</location>
+			<image>static/img/16.png</image>
+			<identifier>16</identifier>
+			<mood>Jesting</mood>
+			<label>Warp Records</label>
+			<date>2010</date>
+			<annotation>Here is the man of the hour. Flying Lotus is a synthetic master, pulling together strands of sounds into a kind of sick, sick tapestry. Media-friendly tidbits includes his being Alice Coltrane's nephew, and his breakout being the bump music on Adult Swim. Tracks on Cosmogramma stand and fall together, so listen to it as a whole.</annotation>
+		</track>
+	</trackList>
+</playlist>

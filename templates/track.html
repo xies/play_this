@@ -1,0 +1,15 @@
+
+<link rel="stylesheet" href="static/master.css" type="text/css" media="screen">
+
+</head>
+{%if track %}
+
+<h1>Track {{ trackID }}</h1>
+<h2>{{ track['Title'] }}, {{ track['Artist'] }}</h2>
+<img src=" {{ track.get('Art') }} ">
+<p><em>{{ track.get('Album')}}</em>. {{track.get('Label')}} ({{track.get('Year')}}).
+<p>{{ track['Notes'] }}
+{% else %}
+
+{% endif %}
+
